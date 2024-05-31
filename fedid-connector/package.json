@@ -1,0 +1,19 @@
+{
+  "name": "nuxt-app",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "build": "nuxt build",
+    "dev": "nuxt dev",
+    "generate": "nuxt generate",
+    "preview": "nuxt preview",
+    "postinstall": "nuxt prepare"
+  },
+  "dependencies": {
+    "blake2": "^5.0.0",
+    "nuxt": "^3.11.2",
+    "postgres": "^3.4.4",
+    "vue": "^3.4.27",
+    "vue-router": "^4.3.2"
+  }
+}
