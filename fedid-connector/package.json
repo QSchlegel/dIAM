@@ -19,6 +19,7 @@
     "@veramo/key-manager": "^6.0.0",
     "@veramo/kms-local": "^6.0.0",
     "blake2": "^5.0.0",
+    "dayjs": "^1.11.11",
     "did-resolver": "^4.1.0",
     "ethr-did-resolver": "^10.1.5",
     "nuxt": "^3.11.2",
@@ -28,5 +29,8 @@
     "vue": "^3.4.27",
     "vue-router": "^4.3.2",
     "web-did-resolver": "^2.0.27"
+  },
+  "devDependencies": {
+    "@nuxtjs/tailwindcss": "^6.12.0"
   }
 }
