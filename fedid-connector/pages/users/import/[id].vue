@@ -13,7 +13,7 @@
                 <div class="bg-gray-100 p-6 space-y-4 rounded-lg shadow-md">
                     <div class="flex justify-between items-center">
                         <div class="flex items-center">
-                            <h1 class="text-lg font-semibold mb-4 text-green-50" v-if="verificationSuccess">✔  </h1>
+                            <h1 class="text-lg font-semibold mb-4 text-green-500" v-if="verificationSuccess">✔  </h1>
                             <h1 class="text-lg font-semibold mb-4 text-red-500" v-if="verificationError">⚠  </h1>
                             <h3 class="text-lg font-semibold mb-4"> Verifiable Credential </h3>
                         </div>
